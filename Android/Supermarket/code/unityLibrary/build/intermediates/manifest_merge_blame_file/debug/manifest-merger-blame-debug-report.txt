@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="19"
+7-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="28" />
+8-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11
+12    <uses-feature android:glEsVersion="0x00020000" />
+12-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:28:3-52
+12-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:28:17-49
+13    <uses-feature
+13-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+14        android:name="android.hardware.touchscreen"
+14-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+15        android:required="false" />
+15-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+16    <uses-feature
+16-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+17        android:name="android.hardware.touchscreen.multitouch"
+17-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+18        android:required="false" />
+18-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+19    <uses-feature
+19-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+20        android:name="android.hardware.touchscreen.multitouch.distinct"
+20-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+21        android:required="false" />
+21-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+22
+23    <application
+23-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:3-27:17
+24        android:allowBackup="true"
+24-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:16-42
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:43-77
+26        android:isGame="true"
+26-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:255-276
+27        android:label="@string/app_name"
+27-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:78-110
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:111-156
+29        android:supportsRtl="true"
+29-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:157-183
+30        android:theme="@style/Theme.Supermarket"
+30-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:184-224
+31        tools:replace="android:theme" >
+31-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:4:225-254
+32        <activity android:name="com.unity3d.player.cartFunction" >
+32-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:5:5-6:16
+32-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:5:15-43
+33        </activity>
+34        <activity android:name="com.unity3d.player.electronicTab" />
+34-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:7:5-47
+34-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:7:15-44
+35        <activity android:name="com.unity3d.player.clothingTab" />
+35-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:8:5-45
+35-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:8:15-42
+36        <activity android:name="com.unity3d.player.UserProfile" />
+36-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:9:5-45
+36-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:9:15-42
+37        <activity android:name="com.unity3d.player.UserLogin" />
+37-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:10:5-43
+37-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:10:15-40
+38        <activity android:name="com.unity3d.player.UserSignUp" />
+38-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:11:5-44
+38-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:11:15-41
+39        <activity
+39-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:12:5-150
+40            android:name="com.unity3d.player.grocceryTab"
+40-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:12:15-42
+41            android:label="@string/title_activity_groccery_tab"
+41-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:12:43-94
+42            android:theme="@style/Theme.Supermarket.NoActionBar" />
+42-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:12:95-147
+43        <activity android:name="com.unity3d.player.Store" />
+43-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:13:5-39
+43-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:13:15-36
+44        <activity android:name="com.unity3d.player.Home" />
+44-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:14:5-38
+44-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:14:15-35
+45        <activity android:name="com.unity3d.player.MainActivity" >
+45-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:15:5-22:16
+45-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:15:15-43
+46            <intent-filter>
+46-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:16:7-20:23
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:17:9-61
+47-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:17:17-58
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:18:9-69
+49-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:18:19-66
+50                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+50-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:19:9-78
+50-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:19:19-75
+51            </intent-filter>
+52
+53            <meta-data
+53-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:21:7-78
+54                android:name="android.notch_support"
+54-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:21:18-54
+55                android:value="true" />
+55-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:21:55-75
+56        </activity>
+57
+58        <meta-data
+58-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:23:5-69
+59            android:name="unity.splash-mode"
+59-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:23:16-48
+60            android:value="0" />
+60-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:23:49-66
+61        <meta-data
+61-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:24:5-74
+62            android:name="unity.splash-enable"
+62-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:24:16-50
+63            android:value="True" />
+63-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:24:51-71
+64        <meta-data
+64-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:25:5-81
+65            android:name="notch.config"
+65-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:25:16-43
+66            android:value="portrait|landscape" />
+66-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:25:44-78
+67        <meta-data
+67-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:26:5-101
+68            android:name="unity.build-id"
+68-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:26:16-45
+69            android:value="83b18793-71bd-4152-b077-5162bad3b0e1" />
+69-->C:\Users\Lenovo\Desktop\SupermarketNav\Android\Supermarket\code\unityLibrary\src\main\AndroidManifest.xml:26:46-98
+70    </application>
+71
+72</manifest>

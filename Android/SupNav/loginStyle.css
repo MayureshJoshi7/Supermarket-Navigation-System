@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  color: #3f37c9;
+  padding-top: 20px;
+}
+
+form {
+  color: #3f37c9;
+  margin-top: 5%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.form-group {
+  margin: auto;
+  width: 500px;
+  display: block;
+  flex-wrap: nowrap;
+}
+
+a:hover,
+a:active {
+  color: #3f37c9;
+}

@@ -1,0 +1,2 @@
+com/Demo/AstarPlatformPathfinding/BuildConfig.java
+ com.Demo.AstarPlatformPathfinding.BuildConfig

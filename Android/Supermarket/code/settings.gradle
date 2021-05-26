@@ -1,0 +1,8 @@
+include ':launcher-debug'
+include ':app'
+rootProject.name = "supermarket"
+
+//include ':unityLibrary'
+//project(':unityLibrary').projectDir=new File('..\\Unity\\A-star-3D-Pathfinding-in-Unity-master\\A-star-3D-Pathfinding-in-Unity-master\\A star 3D Pathfinding\\androidBuild\\unityLibrary')
+include ':unityLibrary'
+include ':launcher'

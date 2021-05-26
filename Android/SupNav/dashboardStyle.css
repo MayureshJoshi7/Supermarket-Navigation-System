@@ -1,0 +1,35 @@
+.carousel-inner {
+  height: 70vh;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.txt_about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txt_Below_About {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 80px;
+  padding-bottom: 100px;
+}
+
+.process_Explanation {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+}
